@@ -1,3 +1,5 @@
+let players = window.players;
+
 function setup() {
     createCanvas(800, 600);
 }
