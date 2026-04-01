@@ -1,6 +1,6 @@
 let socket = io();
 let myId;
-let players = {};
+window.players = {};
 
 socket.on("init", (id) => {
     myId = id;
